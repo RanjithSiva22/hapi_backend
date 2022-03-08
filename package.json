@@ -1,0 +1,24 @@
+{
+  "name": "hapi-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.1.0",
+    "@hapi/jwt": "^2.1.0",
+    "cookie": "^0.4.2",
+    "cors": "^2.8.5",
+    "hapi-auth-jwt": "^4.0.0",
+    "ioredis": "^4.28.5",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15",
+    "util": "^0.12.4"
+  }
+}
